@@ -13,7 +13,7 @@ const client = axios.create(
 function BotsPage() {
   //state variable to store bots after fetch
   const [bots, setBots] = useState([]);
-  //state variable to store user selected ots on enlisting
+  //state variable to store user selected bots on enlisting
   const [userBots, setUserBots] = useState([]);
 
   //sideeffect to fetch and update state using axios

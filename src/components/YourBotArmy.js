@@ -7,12 +7,10 @@ function YourBotArmy({mybots, userBots, setUserBots}) {
   const displayUserBotSpecs = mybots.map(bot => {
     return <UserBots key={bot.id} bot={bot} userBots={userBots} setUserBots={setUserBots}/>
   })
-
   return (
     <div className="ui segment inverted olive bot-army">
       <div className="ui five column grid">
         <div className="row bot-army-row">
-          {/* render these user bots here */}
           { displayUserBotSpecs }
         </div>
       </div>
