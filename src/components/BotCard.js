@@ -22,8 +22,7 @@ function BotCard({ bot, userBots, setUserBots}) {
       "avatar_url": `${bot.avatar_url}`
     }
     setUserBots(([...userBots, clickedBot]))
-    // console.log to confirm if state is updated
-    // console.log(userBots)    
+      
   }
 
   return (

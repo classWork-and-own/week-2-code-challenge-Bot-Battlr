@@ -30,7 +30,6 @@ function UserBots({ bot, userBots, setUserBots}) {
       <div
         className="ui card"
         key={bot.id}
-        // onClick={() =>{removeUserBot(`${userBots}`)}}
       >
         <div className="image">
           <img alt="oh no!" src={bot.avatar_url} onClick={() =>{removeUserBot(`${userBots}`)}}/>
