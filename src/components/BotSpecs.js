@@ -21,9 +21,7 @@ function BotSpecs({ bot, userBots, setUserBots }) {
       "catchphrase": `${bot.catchphrase}`,
       "avatar_url": `${bot.avatar_url}`
     }
-    setUserBots(([...userBots, clickedBot]))
-    // console.log to confirm if state is updated
-    // console.log(userBots)    
+    setUserBots(([...userBots, clickedBot]))   
   }
   return (
     <div className="ui segment">
